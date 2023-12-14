@@ -1,0 +1,22 @@
+{   "CUDA_VISIBLE_DEVICES": "1",
+    "num_classes": 20,
+    "batch_size": 8,
+    "num_epoch": 200,
+    "lr": 0.0001,
+    "weight_decay": 1e-4,
+    "momentum": 0.95,
+    "train_list": "newdata/trainn21l415.txt",
+    "test_list": "newdata/validn21l415.txt",
+
+
+    "train_model": { 
+        "select" : 0,
+        "model": ["mymodelcoordconv","Mymodeljustneibour","Mymodel3onedistan","Mymodel3onenear","Mymodel3max2.py","Mymodelaverage2.py","Mymodel3unetplusplus"]
+    },
+    "save_model": {
+        "save": true,
+        "save_path": "saved"
+    }
+}
+
+

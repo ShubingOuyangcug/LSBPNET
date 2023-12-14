@@ -1,0 +1,14 @@
+{   
+    "num_classes": 20,
+    "img_txt": "newdata/testn21l415.txt",
+    "train_model": { 
+        "select" : 0,
+        "model": ["mymodelcoordconv","Mymodeljustneibour","Mymodel3onedistan","Mymodel3onenear","Mymodel3max2.py","Mymodelaverage2.py","Mymodel3unetplusplus"]
+    },
+    "save_model": {
+        "save": true,
+        "save_path": "saved/"
+    },
+    "//":["unetPlusPlus,pspnet,unet,attentionUnet,deeplabv3"]
+}
+
